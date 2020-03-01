@@ -8,11 +8,12 @@ Screen :<br>
 <br>
               (Button of Youtube, Discord, Twitter and TeamSpeak is configurable in the config of theme)
        <br><br>Post :
-       <img src="http://i.imgur.com/751EMdd.jpg" alt="Post">
-       <br>Profile :
-       <img src="http://i.imgur.com/WXUyEFG.png" alt="Profile">
-       <br>Maintenance :
-       <img src="http://i.imgur.com/HOC4fDG.jpg" alt="maintenance">
+       <br><img src="http://i.imgur.com/751EMdd.jpg" alt="Post">
+       <br><br>Profile :
+       <br><img src="http://i.imgur.com/WXUyEFG.png" alt="Profile">
+       <br><br>Maintenance :
+       <br><img src="http://i.imgur.com/HOC4fDG.jpg" alt="maintenance">
+       <br>
 # <br>Config : 
 <br> <img src="http://i.imgur.com/HY3PVYTg.png" alt="Config">
 
