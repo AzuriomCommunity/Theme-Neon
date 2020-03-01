@@ -1,4 +1,10 @@
 {
-    "title": "Title",
-    "subtitle": "Subtitle"
+        "discord-id": null,
+    "discord-invite": null,
+    "twitter": null,
+    "title": "Exemple",
+    "subtitle": "Lorem ipsum",
+    "ip": null,
+    "ts": null,
+    "youtube": null
 }
