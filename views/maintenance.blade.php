@@ -11,6 +11,31 @@
             <style>
         @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
+ /* Scroll Bar */
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 0px;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #982727; 
+          border-radius: 15px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #DC3B3B; 
+        }
+        /* Scroll Bar */
+
+
 :root {
   /* Base font size */  
   

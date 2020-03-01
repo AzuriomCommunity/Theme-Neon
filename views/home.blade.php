@@ -11,6 +11,29 @@
                         <h1 class="">{{ config('theme.title') }}</h1>
                         
                         <style>
+        /* Scroll Bar */
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 0px;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #982727; 
+          border-radius: 15px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #DC3B3B; 
+        }
+        /* Scroll Bar */
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
