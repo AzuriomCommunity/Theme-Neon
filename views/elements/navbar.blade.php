@@ -90,7 +90,7 @@
                             <a href="ts3server://{{ config('theme.ts') }}" class="dropdown-item" style="float: left;">TeamSpeak</a>
                         @endif
                         @if(config('theme.youtube'))
-                            <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}" target="blank" class="dropdown-item" style="float: left;">Youtube</a>
+                            <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}?view_as=subscriber" target="blank" class="dropdown-item" style="float: left;">Youtube</a>
                         @endif
 
                         </div>
