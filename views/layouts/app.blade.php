@@ -110,7 +110,7 @@
         <a href="https://twitter.com/{{ config('theme.twitter') }}"  target="blank" style="color: #FFF"><i class="fab fa-twitter fa-2x" style="float: left; margin-left: 15px;"></i></a>
         @endif
         @if(config('theme.youtube'))
-        <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}"  target="blank" style="color: #FFF"><i class="fab fa-youtube fa-2x" style="float: left; margin-left: 15px;"></i></a>
+        <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}?view_as=subscriber"  target="blank" style="color: #FFF"><i class="fab fa-youtube fa-2x" style="float: left; margin-left: 15px;"></i></a>
         @endif
 
 
