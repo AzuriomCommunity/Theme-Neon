@@ -75,7 +75,7 @@
                 @if(config('theme.discord-invite'))
                 <li class="nav-item dropdown" style="color: #FFF;">
                         <a id="userDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{ trans('theme::carbon.config.resaux') }}<span class="caret"></span>
+                        {{ trans('theme::neon.config.resaux') }}<span class="caret"></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         @if(config('theme.twitter'))        

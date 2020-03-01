@@ -13,7 +13,7 @@
                <!-- -->
 
                 <div class="form-group">
-                    <label for="titleInput">{{ trans('theme::carbon.config.title') }}</label>
+                    <label for="titleInput">{{ trans('theme::neon.config.title') }}</label>
                     <input type="text" class="form-control @error('title') is-invalid @enderror" id="titleInput" placeholder="ex : Hypixel" name="title" value="{{ old('title', config('theme.title')) }}">
 
                     @error('title')
@@ -22,15 +22,15 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="subtitleInput">{{ trans('theme::carbon.config.subtitle') }}</label>
-                    <input type="text" class="form-control @error('subtitle') is-invalid @enderror" id="subtitleInput" name="subtitle" placeholder="ex : {{ trans('theme::carbon.config.ex-subtitle') }}" value="{{ old('subtitle', config('theme.subtitle')) }}">
+                    <label for="subtitleInput">{{ trans('theme::neon.config.subtitle') }}</label>
+                    <input type="text" class="form-control @error('subtitle') is-invalid @enderror" id="subtitleInput" name="subtitle" placeholder="ex : {{ trans('theme::neon.config.ex-subtitle') }}" value="{{ old('subtitle', config('theme.subtitle')) }}">
 
                     @error('subtitle')
                     <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="ipInput">{{ trans('theme::carbon.config.ip') }}</label>
+                    <label for="ipInput">{{ trans('theme::neon.config.ip') }}</label>
                     <input type="text" class="form-control @error('ip') is-invalid @enderror" placeholder="play.exemple.fr" id="ipInput" name="ip" value="{{ old('ip', config('theme.ip')) }}">
 
                     @error('subtitle')
@@ -38,7 +38,7 @@
                     @enderror
                     <br>
                 <!--<div class="form-group">
-                    <label for="subtitleInput">{{ trans('theme::carbon.config.color') }}</label>
+                    <label for="subtitleInput">{{ trans('theme::neon.config.color') }}</label>
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">#</span>
@@ -62,7 +62,7 @@ margin-left: auto;"></div>
     <br>
                 
                 <div class="form-group">
-                    <label for="discordInput">{{ trans('theme::carbon.config.discord') }}</label>
+                    <label for="discordInput">{{ trans('theme::neon.config.discord') }}</label>
                     <input type="text" class="form-control @error('discord-id') is-invalid @enderror" id="discordInput" placeholder="ex : 676016332709560330" name="discord-id" value="{{ old('discord-id', config('theme.discord-id')) }}">
 
                     @error('discord-id')
@@ -70,7 +70,7 @@ margin-left: auto;"></div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="discordInput">{{ trans('theme::carbon.config.discord-invite') }}</label>
+                    <label for="discordInput">{{ trans('theme::neon.config.discord-invite') }}</label>
                     <input type="text" class="form-control @error('discord-invite') is-invalid @enderror" id="discord-inviteInput" placeholder="ex : https://discord.gg/UnDFmrk" name="discord-invite" value="{{ old('discord-invite', config('theme.discord-invite')) }}">
 
                     @error('discord-invite')
@@ -78,7 +78,7 @@ margin-left: auto;"></div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="discordInput">{{ trans('theme::carbon.config.ts') }}</label>
+                    <label for="discordInput">{{ trans('theme::neon.config.ts') }}</label>
                     <input type="ts" class="form-control @error('ts') is-invalid @enderror" id="tsInput" placeholder="ex : ts.exemple.com" name="ts" value="{{ old('ts', config('theme.ts')) }}">
 
                     @error('ts')
@@ -87,7 +87,7 @@ margin-left: auto;"></div>
                 </div>
 
                 <div class="form-group">
-                    <label for="twitterInput">{{ trans('theme::carbon.config.twitter') }}</label>
+                    <label for="twitterInput">{{ trans('theme::neon.config.twitter') }}</label>
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">@</span>
@@ -100,7 +100,7 @@ margin-left: auto;"></div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="twitterInput">{{ trans('theme::carbon.config.youtube') }}</label>
+                    <label for="twitterInput">{{ trans('theme::neon.config.youtube') }}</label>
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">https://www.youtube.com/channel/</span>
