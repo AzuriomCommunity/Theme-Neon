@@ -19,5 +19,6 @@ return [
         'twitter' => 'Twitter account (name) of the server',
         'resaux' => 'Network',
         'youtube' => 'Server\'s youtube channel',
+        'sociaux' => 'Social Settings',
     ]
 ];

@@ -19,6 +19,7 @@ return [
         'twitter' => 'Compte (nom) Twitter du serveur',
         'resaux' => 'Réseaux',
         'youtube' => 'La chaîne youtube du serveur',
+        'sociaux' => 'Paramètre Sociaux',
 
     ],
 ];

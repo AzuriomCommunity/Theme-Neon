@@ -58,7 +58,7 @@ width: 90%;
 margin-right: auto;
 margin-left: auto;"></div>
 <br>
-    <p style="font-size: 25px; margin-left: 10px;">Parametre Sociaux</p>
+    <p style="font-size: 25px; margin-left: 10px;">{{ trans('theme::neon.config.sociaux') }}</p>
     <br>
                 
                 <div class="form-group">
