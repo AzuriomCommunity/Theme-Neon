@@ -11,6 +11,8 @@ Screen :<br>
        <img src="http://i.imgur.com/751EMdd.jpg" alt="Post">
        <br>Profile :
        <img src="http://i.imgur.com/WXUyEFG.png" alt="Profile">
+       <br>Maintenance :
+       <img src="http://i.imgur.com/HOC4fDG.jpg" alt="maintenance">
 # <br>Config : 
 <br> <img src="http://i.imgur.com/HY3PVYTg.png" alt="Config">
 
