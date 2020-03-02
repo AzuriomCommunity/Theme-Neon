@@ -1,9 +1,10 @@
 {
-    "name": "Neon's Theme",
+    "name": "Neon",
     "version": "0.1.0",
     "description": "A Neon theme create by Pseudo_Illyes",
     "url" : "https://github.com/Pseudo_Illyes",
     "authors": [
         "Pseudo_Illyes"
     ]
+    "apiId": 8
 }
