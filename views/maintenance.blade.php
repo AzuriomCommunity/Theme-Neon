@@ -7,7 +7,7 @@
         <h1 class="title-block">{{ trans('messages.maintenance') }}</h1>
 
         <div class="content" style="background-color: black">
-            <h1>{!! setting('maintenance-message', 'Le site est en maintenance') !!}</h1>
+            <h1>{!! setting('maintenance-message', trans('messages.maintenance-message')) !!}</h1>
             <style>
         @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
