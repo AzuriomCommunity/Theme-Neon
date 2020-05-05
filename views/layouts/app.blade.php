@@ -101,16 +101,16 @@
     <div class="copyright">
         <div class="container" style="font-size: 15px;">
         @if(config('theme.discord-invite'))
-        <a href="{{ config('theme.discord-invite') }}" target="blank" style="color: #FFF"><i class="fab fa-discord fa-2x" style="float: left;"></i></a>
+        <a href="{{ config('theme.discord-invite') }}" target="_blank" rel="noreferrer noopener" style="color: #FFF"><i class="fab fa-discord fa-2x" style="float: left;"></i></a>
         @endif
         @if(config('theme.ts'))
         <a href="ts3server://{{ config('theme.ts') }}"  style="color: #FFF"><i class="fab fa-teamspeak fa-2x" style="float: left; margin-left: 15px;"></i></a>
         @endif
         @if(config('theme.twitter'))
-        <a href="https://twitter.com/{{ config('theme.twitter') }}"  target="blank" style="color: #FFF"><i class="fab fa-twitter fa-2x" style="float: left; margin-left: 15px;"></i></a>
+        <a href="https://twitter.com/{{ config('theme.twitter') }}"  target="_blank" rel="noreferrer noopener" style="color: #FFF"><i class="fab fa-twitter fa-2x" style="float: left; margin-left: 15px;"></i></a>
         @endif
         @if(config('theme.youtube'))
-        <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}?view_as=subscriber"  target="blank" style="color: #FFF"><i class="fab fa-youtube fa-2x" style="float: left; margin-left: 15px;"></i></a>
+        <a href="https://www.youtube.com/channel/{{ config('theme.youtube') }}?view_as=subscriber"  target="_blank" rel="noreferrer noopener" style="color: #FFF"><i class="fab fa-youtube fa-2x" style="float: left; margin-left: 15px;"></i></a>
         @endif
 
 
