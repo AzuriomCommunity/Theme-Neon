@@ -128,7 +128,7 @@ h1.title-block {
     position: absolute;
     bottom: 0;
     left: 0;
-    font-family: 'Roboto', ;
+    font-family: 'Roboto, sans-serif' ;
     width: 100%;
     border-radius: 0 0 5px 5px;
     background: rgba(0, 0, 0, 0.5);
@@ -136,7 +136,7 @@ h1.title-block {
 }
 
 .post-preview .post-body .post-content {
-    font-family: 'Roboto', ;
+    font-family: 'Roboto, sans-serif' ;
 
     
 
